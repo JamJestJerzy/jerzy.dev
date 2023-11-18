@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik');
+@import url("https://fonts.googleapis.com/css?family=JetBrains Mono");
 
 :root {
     --background: #303845;
@@ -6,5 +7,50 @@
 }
 
 body {
-    background: var(--background);
+    background: url(https://source.unsplash.com/E8Ufcyxz514/2400x1823)
+    center / cover no-repeat fixed;;
+}
+
+.container { position: relative; color: white; width: 100%; top: 200px; }
+.bottom-left { position: absolute; bottom: 8px; left: 16px; }
+.top-left { position: absolute; top: 8px; left: 16px; }
+.top-right { position: absolute; top: 8px; right: 16px; }
+.bottom-right { position: absolute; bottom: 8px; right: 16px; }
+.centered { position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); }
+
+.aboutme {
+    font-family: 'JetBrains Mono', Consolas, sans-serif;
+    color: #3e9ac1;
+}
+
+/* https://codepen.io/_rahul/pen/NWXjOXW */
+
+.card {
+    min-height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    max-width: 500px;
+    height: 300px;
+    padding: 35px;
+
+    border: 1px solid rgba(255, 255, 255, .25);
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.45);
+    box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.25);
+
+    backdrop-filter: blur(5px);
+}
+
+.card-footer {
+    font-size: 0.65em;
+    color: #446;
+}
+
+hr {
+    height: 2px;
+    background-color: #ecbbce;
+    border: none;
+    margin: 5px 0;
 }
