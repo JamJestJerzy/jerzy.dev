@@ -1,0 +1,23 @@
+@import url("https://fonts.googleapis.com/css?family=JetBrains Mono");
+
+* {
+    font-family: 'JetBrains Mono', Consolas, sans-serif;
+}
+
+body {
+    color: #FAFAFA;
+    background: #000000;
+    height: 100%;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.centered-text {
+    text-align: center;
+}
