@@ -6,7 +6,7 @@ span {
 }
 
 body {
-    background: url(https://source.unsplash.com/E8Ufcyxz514/2400x1823) center / cover no-repeat fixed;
+    background: url(/images/background.jpg) center / cover no-repeat fixed;
 }
 
 .container { position: relative; color: white; width: 100%; top: 200px; }
