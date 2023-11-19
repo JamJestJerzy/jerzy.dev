@@ -8,6 +8,8 @@
     <link type="text/css" href="/styles/files.css" rel="stylesheet">
     <link type="text/css" href="/styles/top.css" rel="stylesheet">
 
+    <script src="/scripts/files.js"></script>
+
     <!-- metadata -->
     <meta property="og:title" content="Jerzy Dev" />
     <meta property="og:type" content="website" />
@@ -20,7 +22,7 @@
     <!-- end of metadata -->
 </head>
 <body>
-    <div class="container">
+    <div class="container" ondrop="dropHandler(event);" ondragover="dragOverHandler(event);">
         <div class="title">
             <div class="name" style="--stacks: 3;">
                 <span style="--index: 0;">Files:</span>
